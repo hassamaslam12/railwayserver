@@ -17,9 +17,9 @@ app.get('/weather', (req, res) => {
   })
 })
 
-const __dirName =path.resolve();
-app.get('/',express.static(path.join(__dirName,"/web/index.html")))
-app.use('/',express.static(path.join(__dirName,"/web")))
+const __dirname =path.resolve();
+app.get('/',express.static(path.join(__dirname,"/web/index.html")))
+app.use('/',express.static(path.join(__dirname,"/web")))
 
 
 app.listen(port, () => {
