@@ -4,7 +4,7 @@ let baseUrl = "";
 if (url.split(":")[0] === 'http') {
     baseUrl = 'http://localhost:5001';
 } else {
-    baseUrl = 'https://ill-pink-gorilla-cuff.cyclic.app';
+    baseUrl = 'https://hassamserver.cyclic.app/';
 }
 
 
