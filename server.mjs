@@ -19,7 +19,7 @@ app.get('/weather', (req, res) => {
 
 const __dirname =path.resolve();
 // app.get('/',express.static(path.join(__dirname,"./web/index.html")))lakjsd
-app.use('/',express.static(path.join(__dirname,"./web")))
+app.use('/',express.static(path.join(__dirname,"web")))
 
 
 app.listen(port, () => {
